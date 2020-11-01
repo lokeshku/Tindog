@@ -1,0 +1,155 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+/* title-section */
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.5rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#title
+{
+  background-color: #ff4c68;
+  color: white;
+}
+#features{
+  background-color:#fff;
+}
+.conatiner-fluid
+{
+  padding: 3% 15% 7%;
+  margin: 0;
+}
+.navbar{
+  padding:0 0 4.5rem ;
+}
+.nav-item{
+  padding:0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat-light";
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  color: #fff;
+  font-size: 2rem ;
+  font-weight: bold;
+}
+.brand-font{
+  font-family: 'Ubuntu';
+}
+.title-image
+{
+   /* height: 80%; */
+  width:60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right:30%;
+}
+@media (max-width:992px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform: rotate(0deg);
+    position: static;
+    z-index: 1
+
+  }
+
+
+}
+.download-button{
+  margin:5% 3% 5% 0 ;
+}
+/* feature-section */
+#features{
+
+  padding: 10% 15%;
+
+  background-color: #fff;
+  position: relative;
+
+}
+.feautersh{
+  font-family: "Montserrat-bold" ;
+  font-size: 1.5rem ;
+  font-weight: bold;
+  padding-bottom:0.4rem;
+}
+.feautersp{
+  color:#8f8f8f;
+}
+.feature-image{
+  color:#ef8172;
+  padding-bottom:1.5rem ;
+}
+.feature-image:hover{
+  color: #ff4c68;
+}
+/* testimonial */
+#testimonials{
+  background-color: #ff4c68 ;
+  text-align: center;
+
+  color: #fff;
+}
+.testimonials-image{
+  width:20%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ff4c68;
+text-align: center;
+padding-bottom: 3%;
+}
+.press-image{
+  width:15%;
+  margin : 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.pricingh{
+  font-size: 1.5rem;
+font-family: 'Montserrat-Bold', sans-serif;
+line-height: 1;
+padding:0;
+}
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-col{
+  padding-top: 30px;
+}
+#cta{
+  background-color: #ff4c68 ;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+  background-color: #fff;
+}
+.footer-image{
+  padding: 0.3rem;
+}
